@@ -1,0 +1,93 @@
+@media (min-width:320px) and (max-width:767px){
+	.wrapper{ padding:0 15px;}
+	.topBar{ width: 100%; position: fixed; left: 0; top: 0; z-index: 999;}
+	.topBar .wrapper{ padding:0;}
+	.topNav ul li{ margin:0 5px 0 0;}
+	.specialOffer{ padding: 0 5px;}
+
+
+	.header{ height: 55px; width: 100%; left: 0; top: 38px; position: fixed; z-index: 999;}
+	.logo{ width: 140px; margin:11px 0 0 0;}
+	.btnMobileNav{ display: block;}
+	.nav{ width: 200px; height: 100%; background: #153352; padding: 10px 0 0 0; position:fixed; top: 38px; right: -200px; z-index: 999;}
+	.nav li{ display: block; font-size: 15px;}
+	.nav li a{ padding: 10px 15px; border-bottom: 0;}
+	.nav li a:hover, .nav li a.active{ border: 0;}
+	.homeBanner{ height: auto; padding: 50px 0; margin:93px 0 0 0;}
+	.bannerContent{ padding: 0 15px; top: auto; transform:none; -moz-transform:none; -webkit-transform:none;}
+	.bannerContent h2{ font-size: 26px; letter-spacing: -1px;}
+	.container{ padding: 15px;}
+	.imgCont{ width: 100%;}
+	.txtCont{ width: 100%; height: auto; padding: 25px 0;}
+	.contentInner{ top: auto; transform:none;}
+	.txtCont h3{ font-size: 30px; line-height: 36px;}
+
+	.whoWeLeft{ width: 100%; height: auto;}
+	.whoWeRight{ width: 100%; height: auto;}
+
+	.focused{ width: 100%; padding: 0 0 30px 0;}
+	.growthCapital{ width: 100%; height: auto; padding: 30px;}
+	.philosophyCol{ max-width: 384px; width: auto; margin:0 auto; float: none; height: auto;}
+	.philosophyRow h3{ margin:15px 0;}
+	.philosophyRow p{ line-height: 20px;}
+	
+	.offerRow{ margin:0;}
+	.offerCol{ width: 100%; min-height: auto; margin:0 0 15px 0;}
+	.offerLeft{ width: 90px;}
+	.mainContentInner{ margin:93px 0 0 0;}
+	.heading2{ padding: 20px; font-size: 32px; line-height: 36px;}
+	.details p{ font-size: 14px;}
+	.whoWeAreRow h3{ font-size: 26px; padding: 0 0 15px 0;}
+	.teamList li{ display: block; margin:0 0 30px 0; max-width: none;}
+	
+	.career{ padding: 0;}
+	.career p{ font-size: 14px;}
+	.career h3{ font-size: 16px; line-height: 24px;}
+
+	.criteriaRowOuter{ }
+	.criteriaRow{ padding: 0;}
+	.criteriaDesc{ padding: 15px;}
+	.criteriaLeft{ width: 100%;}
+	.criteriaRight{ width: 100%;}
+	.tabDesc{ padding: 0;}
+	.address{ font-size: 16px;}
+
+	.footer{ padding: 25px 0;}
+	.footerNav{ display: none;}
+	.footer .wrapper{ padding:0 10px;}
+	.copyright{ padding: 0;}
+	.copyLeft{ width: 100%; text-align: center; padding: 0 0 15px 0;}
+	.socialList{ width: 100%; float: left; text-align: center;}
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	.wrapper{ padding:0 15px;}
+	.header{ height: 79px;}
+	.logo{ width: 170px; margin:19px 0 0 0;}
+	.nav li a{ padding: 28px 10px;}
+	.homeBanner{ height: 500px; margin: 117px 0 0 0;}
+	.mainContentInner{ margin: 117px 0 0 0;}
+	.txtCont{ height: auto;}
+	.contentInner{ top: auto; transform:none;}
+	.txtCont h3{ font-size: 30px; line-height: 36px;}
+
+	.whoWeLeft{ width: 100%; height: auto;}
+	.whoWeRight{ width: 100%; height: auto;}
+
+	.focused{ width: 50%;}
+	.growthCapital{ width: 50%; height: auto; padding: 0 30px 30px 30px;}
+	.philosophyCol{ height: auto;}
+	.philosophyRow h3{ margin:15px 0;}
+	.philosophyRow p{ line-height: 20px;}
+
+	.offerLeft{ width: 120px;}
+	.criteriaRowOuter{ }
+	.criteriaDesc{ padding: 20px;}
+	.tabDesc{ padding: 0;}
+	.teamList li{ max-width: none;}
+}
+	
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+}
